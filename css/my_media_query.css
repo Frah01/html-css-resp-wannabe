@@ -1,9 +1,9 @@
 
 @media screen and (max-width: 768px){
     .container {
-        max-width: 768px;
+        max-width: 730px;
     }
-    }
+}
 @media screen and (max-width: 480px) {
     .container {
         max-width: 480px;
@@ -16,6 +16,7 @@
     }
     .steps {
         margin: 0;
+        padding: 0;
     }
     .why-us {
         margin: 0 auto;
