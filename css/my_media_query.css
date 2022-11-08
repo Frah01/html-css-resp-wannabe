@@ -3,3 +3,35 @@
     .container {
         max-width: 768px;
     }
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+    }
+    .lessons .col {
+        width: 90%;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .steps .col {
+        width: 90%;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .why-us {
+        background-color: rgba(34,34,34,255);
+        margin: 0 auto;
+    }
+
+    .why-us .col-left {
+        width: 80%;
+    }
+    .why-us .col-right {
+        width: 80%;
+    }
+}
