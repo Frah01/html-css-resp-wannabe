@@ -13,6 +13,16 @@
     .card{
         margin-bottom: 20px;
     }
+    .steps {
+        margin: 0;
+    }
+    .why-us {
+        margin: 0 auto;
+        padding-top: 50px;     
+    }
+    .lessons {
+        padding-bottom: 50px;
+    }
     .steps .col {
         width: 90%;
     }
@@ -29,9 +39,16 @@
     }
 
     .why-us .col-left {
-        width: 80%;
+        width: 100%;
     }
     .why-us .col-right {
-        width: 80%;
+        width: 100%;
+        margin-top: 50px;
+        text-align: left;
     }
+
+    h2, h1 {
+        font-size: 3rem;
+    }
+    
 }
